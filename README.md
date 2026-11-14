@@ -1,93 +1,91 @@
-¡Hola! Soy Diana Carolina Medranda 👋
+# ¡Hola! Soy Diana Carolina Medranda 👋
 
-📊 Data Analyst | Python | SQL | Data Visualization
+### 📊 Data Analyst | Python | SQL | Data Visualization
 
 Soy profesional del sector salud en transición hacia el análisis de datos. Cuento con experiencia en auditoría, seguimiento contractual, gestión de procesos y coordinación de equipos interdisciplinarios.
 
 Actualmente estoy fortaleciendo mis habilidades en análisis de datos, combinando mi experiencia profesional con herramientas tecnológicas para transformar información en hallazgos que faciliten la toma de decisiones y la optimización de procesos.
 
-👩‍💻 Sobre mí
+---
+## 👩‍💻 Sobre mí
+- 📊 Interesada en el análisis exploratorio de datos y la generación de insights.
 
-📊 Interesada en el análisis exploratorio de datos y la generación de insights.
+- 🐍 Desarrollando proyectos con Python y sus principales bibliotecas.
 
-🐍 Desarrollando proyectos con Python y sus principales bibliotecas.
+- 🗄️ Fortaleciendo conocimientos en SQL y bases de datos.
 
-🗄️ Fortaleciendo conocimientos en SQL y bases de datos.
+- 📈 Interesada en la visualización de datos y la elaboración de dashboards.
 
-📈 Interesada en la visualización de datos y la elaboración de dashboards.
+- 🎯 Enfocada en aplicar el análisis de datos a problemas reales de negocio.
 
-🎯 Enfocada en aplicar el análisis de datos a problemas reales de negocio.
+---
+## 🛠️ Tecnologías y herramientas
 
-🛠️ Tecnologías y herramientas
+### Lenguajes y análisis de datos
 
-Lenguajes y análisis de datos
+- Python | Pandas | NumPy
 
-Python
+- SQL | PostgreSQL | MySQL
 
-SQL
+### Visualización de datos
 
-Pandas
+- Matplotlib | Seaborn
 
-NumPy
+### Herramientas
 
-Visualización
+- Excel avanzado
 
-Matplotlib
+- Google Sheets
 
-Seaborn
+--- 
+# 🚀 Proyectos destacados
 
-Bases de datos
+### 📍 1. Movilidad urbana y productividad económica
 
-PostgreSQL
+- Análisis exploratorio de datos utilizando Python.
 
-MySQL
+- Evaluación de la relación entre congestión vial y PIB per cápita.
 
-Herramientas
+- Identificación de variables relevantes para la toma de decisiones sobre infraestructura urbana.
 
-Excel avanzado
+### 🛒 2. Análisis de embudo y retención – MercadoLibre
 
-Google Sheets
+ - Análisis de conversión de usuarios.
 
-🚀 Proyectos destacados
+- Identificación de puntos de fuga en el proceso de compra.
 
-1. Movilidad urbana y productividad económica
+ - Evaluación de retención mediante análisis de cohortes.
 
-Análisis exploratorio de datos con Python.
+- Propuestas para optimizar el checkout y mejorar la retención.
 
-Evaluación de la relación entre congestión vial y PIB per cápita.
+### 📈 3. Resumen ejecutivo de ventas – Walmart
 
-Identificación de variables relevantes para la toma de decisiones sobre infraestructura urbana.
+- Limpieza y análisis de datos de ventas.
 
-2. Análisis de embudo y retención – MercadoLibre
+- Evaluación del rendimiento por departamento.
 
-Análisis de conversión de usuarios.
+ - Análisis de indicadores para identificar oportunidades de optimización comercial.
 
-Identificación de puntos de fuga en el proceso de compra.
+---
 
-Evaluación de retención mediante análisis de cohortes.
+# 📚 Formación
 
-Propuestas para optimizar el checkout y mejorar la retención.
+- Certificación en Análisis de Datos – Tripleten (en curso).
 
-3. Resumen ejecutivo de ventas – Walmart
+- Project Management – Udemy.
 
-Limpieza y análisis de datos de ventas.
+- Scrum Master SMPC – Udemy.
 
-Evaluación del rendimiento por departamento.
+- Especialización en Gerencia de Instituciones de Salud – Universidad EAFIT.
 
-Análisis de indicadores para identificar oportunidades de optimización comercial.
+---
 
-📚 Formación
+# 📫 Contáctame 
 
-Certificación en Análisis de Datos – Tripleten (en curso).
+💼 LinkedIn
 
-Certificación en Project Management – Udemy.
+🐙 GitHub
 
-Certificación Scrum Master SMPC – Udemy.
+---
 
-Especialización en Gerencia de Instituciones de Salud – Universidad EAFIT.
-
-📫 Conectemos
-
-💼 LinkedIn: https://www.linkedin.com/in/diana-carolina-medranda-estrada/
-
-🐙 GitHub: https://github.com/CaroMedranda
+⭐ Transformando datos en información para generar valor y apoyar mejores decisiones.
