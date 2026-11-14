@@ -26,3 +26,18 @@ print(traffic.head(5))
 
 # Mostrar las primeras 5 filas de economía
 print(eco.head(5))
+
+# ==========================================
+# PASO 3. EXAMINAR LA ESTRUCTURA DE LOS DATOS
+# ==========================================
+
+# Examinar la estructura de traffic
+
+print(traffic.info())
+print(traffic.head(3))
+
+
+# Examinar la estructura de eco
+
+print(eco.info())
+print(eco.head(3))
