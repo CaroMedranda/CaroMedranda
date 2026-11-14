@@ -52,33 +52,81 @@ Actualmente estoy fortaleciendo mis habilidades en análisis de datos, combinand
 </p>
 
 --- 
-# 🚀 Proyectos destacados
 
-### 📍 1. Movilidad urbana y productividad económica
+<h2>🚀 Proyectos destacados</h2>
 
-- Análisis exploratorio de datos utilizando Python.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Evaluación de la relación entre congestión vial y PIB per cápita.
+<h3>📍 Movilidad urbana y productividad económica</h3>
 
-- Identificación de variables relevantes para la toma de decisiones sobre infraestructura urbana.
+<p>
+Análisis exploratorio para evaluar la relación entre la congestión vial y el PIB per cápita en diferentes ciudades.
+</p>
 
-### 🛒 2. Análisis de embudo y retención – MercadoLibre
+<p><strong>Principales hallazgos:</strong></p>
 
- - Análisis de conversión de usuarios.
+<ul>
+<li>No se identificó una relación lineal directa entre congestión vial y PIB per cápita.</li>
+<li>Se evidenció la importancia de considerar variables socioeconómicas complementarias.</li>
+</ul>
 
-- Identificación de puntos de fuga en el proceso de compra.
+<p><strong>Tecnologías:</strong></p>
 
- - Evaluación de retención mediante análisis de cohortes.
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square"/>
 
-- Propuestas para optimizar el checkout y mejorar la retención.
+</td>
+<td width="50%" valign="top">
 
-### 📈 3. Resumen ejecutivo de ventas – Walmart
+<h3>🛒 Análisis de embudo y retención</h3>
 
-- Limpieza y análisis de datos de ventas.
+<p>
+Análisis del comportamiento de usuarios para identificar puntos de fuga y oportunidades de mejora en el proceso de compra.
+</p>
 
-- Evaluación del rendimiento por departamento.
+<p><strong>Principales hallazgos:</strong></p>
 
- - Análisis de indicadores para identificar oportunidades de optimización comercial.
+<ul>
+<li>Pérdida del 85% de usuarios interesados al agregar al carrito.</li>
+<li>Retención inferior al 3% en el día 28.</li>
+</ul>
+
+<p><strong>Tecnologías:</strong></p>
+
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+<h3>📈 Resumen ejecutivo de ventas Walmart</h3>
+
+<p>
+Análisis de ventas para evaluar el rendimiento por departamento y generar información útil para la toma de decisiones comerciales.
+</p>
+
+<p><strong>Principales hallazgos:</strong></p>
+
+<ul>
+<li>Las categorías de primera necesidad generaron más del 50% de los ingresos.</li>
+<li>Se identificaron diferencias importantes en el rendimiento por metro cuadrado entre departamentos.</li>
+</ul>
+
+<p><strong>Tecnologías:</strong></p>
+
+<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white"/>
+<img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
+
+</td>
+</tr>
+</table>
+
 
 ---
 
