@@ -41,3 +41,45 @@ print(traffic.head(3))
 
 print(eco.info())
 print(eco.head(3))
+
+# ==========================================
+# PASO 4. RENOMBRAR LAS COLUMNAS
+# ==========================================
+
+# Estandarizar los nombres de las columnas de traffic
+
+traffic = traffic.rename(columns={
+    'Country': 'country',
+    'City': 'city',
+    'UpdateTimeUTC': 'update_time_utc',
+    'JamsDelay': 'jams_delay',
+    'TrafficIndexLive': 'traffic_index_live',
+    'JamsLengthInKms': 'jams_length_in_kms',
+    'JamsCount': 'jams_count',
+    'TrafficIndexWeekAgo': 'traffic_index_week_ago',
+    'UpdateTimeUTCWeekAgo': 'update_time_utc_week_ago',
+    'TravelTimeLivePer10KmsMins': 'travel_time_live_per_10_kms_mins',
+    'TravelTimeHistoricPer10KmsMins': 'travel_time_historic_per_10_kms_mins',
+    'MinsDelay': 'mins_delay'
+})
+
+# Verificar cambios en traffic
+
+print(traffic.columns)
+
+
+# Estandarizar los nombres de las columnas de eco
+
+eco = eco.rename(columns={
+    'Country': 'country',
+    'City GDP/capita': 'city_gdp_capita',
+    'Unemployment %': 'unemployment_percent',
+    'Year': 'year',
+    'City': 'city',
+    'PM2.5 (μg/m³)': 'pm25_level',
+    'Population (M)': 'population_million'
+})
+
+# Verificar cambios en eco
+
+print(eco.columns)
