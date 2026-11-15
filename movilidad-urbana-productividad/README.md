@@ -72,7 +72,7 @@ La muestra final comprende 15 ciudades de 7 países latinoamericanos durante 202
 
 ### 3. Comparación de indicadores de movilidad y economía
 
-![Comparación de tráfico y PIB](images/comparacion_trafico_pib.jpg)
+![Comparación de tráfico y PIB](images/comparacion_trafico_pib.jpeg)
 
 
 ## Limitaciones del análisis
