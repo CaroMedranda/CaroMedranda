@@ -181,3 +181,39 @@ traffic_city_year_2024 = traffic_2024.groupby(
 # Mostrar resultado
 print(traffic_city_year_2024.head())
 
+
+# Ordenar las ciudades por promedio de retraso de tráfico
+traffic_city_year_2024.sort_values(
+    ["jams_delay"], ascending=False
+)
+
+# PASO 8. UNIR MOVILIDAD Y ECONOMÍA
+
+# Seleccionar columnas clave de tráfico y economía
+left_cols = [
+    'city', 'country', 'year', 'jams_delay',
+    'traffic_index_live', 'jams_length_in_kms',
+    'jams_count', 'mins_delay',
+    'travel_time_live_per_10_kms_mins',
+    'travel_time_historic_per_10_kms_mins'
+]
+
+right_cols = [
+    'city', 'year', 'city_gdp_capita',
+    'unemployment_percent', 'pm25_level', 'population'
+]
+
+# Crear los dos nuevos datasets reducidos
+traffic_2024_small = traffic_city_year_2024[left_cols].copy()
+eco_2024_small = eco_2024[right_cols].copy()
+
+# Unir datasets
+merged = pd.merge(
+    traffic_2024_small,
+    eco_2024_small,
+    on=['city', 'year'],
+    how='inner'
+)
+
+# Mostrar las primeras 5 filas
+print(merged.head(5))
