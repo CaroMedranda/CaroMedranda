@@ -13,6 +13,17 @@ El proyecto integra información de movilidad urbana y variables económicas, co
 - Integrar información de movilidad y economía mediante variables comunes.
 - Identificar patrones, distribuciones y posibles relaciones entre los indicadores.
 
+
+## 📌 Resumen ejecutivo
+
+El presente análisis exploratorio tuvo como objetivo examinar la relación entre la congestión vehicular y los indicadores económicos de 15 ciudades pertenecientes a 7 países de Latinoamérica durante 2024. Para ello, se integraron datos de movilidad urbana e indicadores económicos, utilizando variables como `jams_delay`, que representa los retrasos por tráfico, y `city_gdp_capita`, que permite aproximarse al nivel de actividad económica por habitante.
+
+Los resultados muestran que `jams_delay` presenta una distribución sesgada hacia la derecha, con una media de **629,52** y una mediana de **263,05**. Esta diferencia evidencia la presencia de valores elevados que influyen en el promedio general. Ciudad de México registró el mayor retraso promedio (**2.833,06**), seguida de São Paulo (**1.729,19**) y Bogotá (**1.141,55**). Por su parte, la distribución del PIB per cápita mostró una mayor concentración de ciudades en rangos intermedios, aunque se identificaron algunos valores elevados y un dato correspondiente a Santiago que requiere validación adicional.
+
+Al comparar los indicadores económicos y de movilidad, se observó una asociación positiva débil entre el PIB per cápita y los retrasos por tráfico. Esto sugiere que, en esta muestra, un mayor nivel de PIB per cápita no implica necesariamente mejores condiciones de movilidad. Sin embargo, los resultados no permiten establecer una relación causal ni concluir que la congestión determine el desempeño económico de una ciudad. También se identificaron limitaciones visuales al comparar ambas variables en un mismo gráfico de barras, debido a sus diferentes escalas de medición.
+
+Como recomendación, Ciudad de México, São Paulo y Bogotá pueden considerarse ciudades prioritarias para investigaciones más detalladas sobre movilidad e infraestructura urbana, debido a sus elevados niveles de retraso por tráfico. Para profundizar en el análisis, sería conveniente incorporar variables adicionales, como población, densidad urbana, inversión en transporte público y características de la infraestructura vial. Finalmente, se recomienda validar los valores atípicos y contrastar las fuentes antes de utilizar estos resultados para decisiones estratégicas.
+
 ## Datos utilizados
 
 Se trabajó con dos conjuntos de datos proporcionados en el proyecto de TripleTen:
