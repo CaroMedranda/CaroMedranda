@@ -217,3 +217,38 @@ merged = pd.merge(
 
 # Mostrar las primeras 5 filas
 print(merged.head(5))
+
+# Crear boxplot para observar el comportamiento de los minutos de congestión
+# Obtener promedio para mostrarlo en título
+mean_value = merged['jams_delay'].mean()
+
+# Crear gráfico
+sns.boxplot(data=merged, y='jams_delay', showmeans=True)
+
+plt.title(f'Boxplot de JamsDelay (2024)\nPromedio: {mean_value:.2f}')
+
+plt.show()
+
+# Crear histograma para ver la distribución de la economía (city_gdp_capita)
+
+sns.histplot(data=merged, x='city_gdp_capita')
+
+plt.title('Distribución de la economía')
+
+plt.xlabel('Valor promedio del per cápita (PIB)')
+
+plt.ylabel('Frecuencia (Número de Registros)')
+
+plt.show()
+
+# Gráfico de barras para comparar jams_delay y city_gdp_capita por ciudad
+
+merged.plot(
+    kind='bar',
+    x='city',
+    y=['jams_delay', 'city_gdp_capita']
+)
+
+plt.xticks(rotation=90)
+
+plt.show()
