@@ -26,12 +26,14 @@ Como recomendación, Ciudad de México, São Paulo y Bogotá pueden considerarse
 
 ## Datos utilizados
 
-Se trabajó con dos conjuntos de datos proporcionados en el proyecto de TripleTen:
+Para el desarrollo de este proyecto se utilizaron dos conjuntos de datos proporcionados como parte del proyecto formativo de TripleTen:
 
 - **TomTom Traffic:** información sobre congestión vehicular, tiempos de desplazamiento y retrasos.
 - **OECD City Economy:** indicadores económicos y ambientales por ciudad, como PIB per cápita, desempleo, contaminación PM2.5 y población.
 
-La muestra final comprende 15 ciudades de 7 países latinoamericanos durante 2024.
+**Consideraciones sobre los archivos:** el conjunto de datos original de TomTom Traffic no se incluye en este repositorio debido a su tamaño. Por esta razón, se documenta su procedencia y se conserva el dataset final procesado utilizado en el análisis.
+
+Los datos fueron utilizados con fines educativos y de análisis exploratorio.
 
 ## Herramientas y tecnologías
 
