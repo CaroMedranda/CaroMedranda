@@ -161,3 +161,23 @@ eco_2024 = eco[eco['year'] == 2024].copy()
 print(display(traffic_2024.head()))
 print(display(eco_2024.head()))
 
+# ==========================================
+# PASO 7. CALCULAR PROMEDIOS DE TRÁFICO POR CIUDAD
+# ==========================================
+
+# Calcular los promedios de tráfico por ciudad, país y año
+traffic_city_year_2024 = traffic_2024.groupby(
+    ['city', 'country', 'year']
+).agg({
+    'jams_delay': 'mean',
+    'traffic_index_live': 'mean',
+    'jams_length_in_kms': 'mean',
+    'jams_count': 'mean',
+    'mins_delay': 'mean',
+    'travel_time_live_per_10_kms_mins': 'mean',
+    'travel_time_historic_per_10_kms_mins': 'mean'
+}).reset_index()
+
+# Mostrar resultado
+print(traffic_city_year_2024.head())
+
