@@ -59,19 +59,21 @@ La muestra final comprende 15 ciudades de 7 países latinoamericanos durante 202
 - La comparación visual de las variables mostró que sus escalas son muy diferentes, por lo que un gráfico de barras con un mismo eje puede dificultar la interpretación.
 - El análisis exploratorio no evidencia una relación clara y directa entre el PIB per cápita y la congestión vehicular.
 
+
 ## 📊 Visualizaciones del análisis
 
 ### 1. Distribución de los retrasos por tráfico
 
-![Boxplot de jams_delay](images/boxplot_jams_delay.png)
+![Boxplot de jams_delay](images/boxplot.jpeg)
 
 ### 2. Distribución del PIB per cápita
 
-![Histograma del PIB per cápita](images/histograma_pib_per_capita.png)
+![Histograma del PIB per cápita](images/histograma.jpeg)
 
 ### 3. Comparación de indicadores de movilidad y economía
 
-![Comparación de tráfico y PIB](images/comparacion_trafico_pib.png)
+![Comparación de tráfico y PIB](images/comparacion_trafico_pib.jpg)
+
 
 ## Limitaciones del análisis
 
