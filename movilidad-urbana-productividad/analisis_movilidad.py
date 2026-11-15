@@ -139,3 +139,25 @@ eco['population'] = eco['population_million'] * 1000000
 # Verificar los cambios en eco
 print(eco.info())
 print(eco.head(3))
+
+# ==========================================
+# PASO 6. EXTRAER AÑO Y FILTRAR DATOS DE 2024
+# ==========================================
+
+# Extraer el año de las fechas en update_time_utc
+traffic['year'] = traffic['update_time_utc'].dt.year
+
+# Verificar el cambio
+print(traffic.head(3))
+
+
+# Filtrar los registros del año 2024
+traffic_2024 = traffic[traffic['year'] == 2024].copy()
+
+eco_2024 = eco[eco['year'] == 2024].copy()
+
+
+# Revisar los nuevos DataFrames
+print(display(traffic_2024.head()))
+print(display(eco_2024.head()))
+
