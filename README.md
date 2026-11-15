@@ -59,7 +59,13 @@ Actualmente estoy fortaleciendo mis habilidades en análisis de datos, combinand
 <tr>
 <td width="50%" valign="top">
 
-<h3>📍 Movilidad urbana y productividad económica</h3>
+
+<h3>
+  <a href="https://github.com/CaroMedranda/CaroMedranda/tree/main/movilidad-urbana-productividad">
+    📍 Movilidad urbana y productividad económica
+  </a>
+</h3>
+
 
 <p>
 Análisis exploratorio para evaluar la relación entre la congestión vial y el PIB per cápita en diferentes ciudades.
