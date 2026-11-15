@@ -148,11 +148,16 @@ Análisis de ventas para evaluar el rendimiento por departamento y generar infor
 
 ---
 
-# 📫 Contáctame 
 
-💼 LinkedIn
+<h2>📬 Contáctame</h2>
 
-🐙 GitHub
+<p>
+  💼 <a href="https://www.linkedin.com/in/diana-carolina-medranda-estrada/" target="_blank">LinkedIn</a>
+</p>
+
+<p>
+  🙋‍♀️ <a href="https://github.com/CaroMedranda" target="_blank">GitHub</a>
+</p>
 
 ---
 
