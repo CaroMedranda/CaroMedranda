@@ -252,3 +252,6 @@ merged.plot(
 plt.xticks(rotation=90)
 
 plt.show()
+
+# Exportar el dataset final como CSV
+merged.to_csv("ladb_mobility_economy_2024_clean.csv", index=False)
