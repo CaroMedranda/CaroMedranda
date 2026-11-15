@@ -83,3 +83,59 @@ eco = eco.rename(columns={
 # Verificar cambios en eco
 
 print(eco.columns)
+
+# ==========================================
+# PASO 5. CORREGIR FORMATOS NUMÉRICOS Y DE FECHA
+# ==========================================
+
+# Convertir las columnas de traffic a formato datetime
+traffic['update_time_utc'] = pd.to_datetime(
+    traffic['update_time_utc'], errors='coerce', utc=True
+)
+
+traffic['update_time_utc_week_ago'] = pd.to_datetime(
+    traffic['update_time_utc_week_ago'], errors='coerce', utc=True
+)
+
+# Verificar los cambios en traffic
+print(traffic.info())
+
+
+# Limpiar y convertir valores numéricos de eco
+
+# Convertir city_gdp_capita a float
+eco['city_gdp_capita'] = (
+    eco['city_gdp_capita'].astype(str)
+    .str.replace('.', '')
+    .str.replace(',', '.')
+    .astype(float)
+)
+
+# Convertir unemployment_percent a float
+eco['unemployment_percent'] = (
+    eco['unemployment_percent'].astype(str)
+    .str.replace('%', '')
+    .str.replace(',', '.')
+    .astype(float)
+)
+
+# Convertir pm25_level a float
+eco['pm25_level'] = (
+    eco['pm25_level'].astype(str)
+    .str.replace(',', '.')
+    .astype(float)
+)
+
+# Convertir population_million a float
+eco['population_million'] = (
+    eco['population_million'].astype(str)
+    .str.replace(',', '.')
+    .astype(float)
+)
+
+# Calcular la población total en unidades absolutas
+eco['population'] = eco['population_million'] * 1000000
+
+# Verificar los cambios en eco
+print(eco.info())
+print(eco.head(3))
