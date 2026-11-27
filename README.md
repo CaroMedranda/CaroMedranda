@@ -111,18 +111,16 @@ Análisis del comportamiento de usuarios para identificar puntos de fuga y oport
 <tr>
 <td colspan="2" valign="top">
 
-<h3>📈 Resumen ejecutivo de ventas Walmart</h3>
+<h3>📊 <a href="https://github.com/CaroMedranda/analisis-ventas-walmart">Resumen ejecutivo de ventas Walmart</a></h3>
 
 <p>
 Análisis de ventas para evaluar el rendimiento por departamento y generar información útil para la toma de decisiones comerciales.
 </p>
 
-<p><strong>Principales hallazgos:</strong></p>
+**Principales hallazgos:**
 
-<ul>
-<li>Las categorías de primera necesidad generaron más del 50% de los ingresos.</li>
-<li>Se identificaron diferencias importantes en el rendimiento por metro cuadrado entre departamentos.</li>
-</ul>
+- Las cuatro categorías con mayor participación (Despensa y Básicos, Comida Fresca, Artículos del Hogar y Papel, y Salud y Bienestar) representaron en conjunto el 45,56 % de las ventas.
+- Se identificaron diferencias importantes en el rendimiento por metro cuadrado entre departamentos, destacando oportunidades para optimizar la distribución del espacio comercial.
 
 <p><strong>Tecnologías:</strong></p>
 
