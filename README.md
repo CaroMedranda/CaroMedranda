@@ -61,8 +61,8 @@ Actualmente estoy fortaleciendo mis habilidades en análisis de datos, combinand
 
 
 <h3>
-  <a href="https://github.com/CaroMedranda/CaroMedranda/tree/main/movilidad-urbana-productividad">
-    📍 Movilidad urbana y productividad económica
+ <a href="https://github.com/CaroMedranda/movilidad-urbana-productividad">
+  📍 Movilidad urbana y productividad económica
   </a>
 </h3>
 
