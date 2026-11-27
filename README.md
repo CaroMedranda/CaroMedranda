@@ -111,7 +111,7 @@ Análisis del comportamiento de usuarios para identificar puntos de fuga y oport
 <tr>
 <td colspan="2" valign="top">
 
-<h3>🛒 <a href="https://github.com/CaroMedranda/an-lisis-embudo-retenci-n-mercadolibre">Análisis de embudo y retención</a></h3>
+<h3>📊 <a href="https://github.com/CaroMedranda/an-lisis-ventas-walmart">Resumen ejecutivo de ventas Walmart</a></h3>
 
 <p>
 Análisis de ventas para evaluar el rendimiento por departamento y generar información útil para la toma de decisiones comerciales.
