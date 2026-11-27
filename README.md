@@ -1,10 +1,10 @@
 # ¡Hola! Soy Diana Carolina Medranda 👋
 
-### 📊 Data Analyst | Python | SQL | Data Visualization
+### 📊 Analista de Datos Junior | Python | SQL | Excel | Visualización de Datos
 
-Soy profesional del sector salud en transición hacia el análisis de datos. Cuento con experiencia en auditoría, seguimiento contractual, gestión de procesos y coordinación de equipos interdisciplinarios.
+Profesional del sector salud en transición hacia el análisis de datos, con experiencia en auditoría, seguimiento contractual y optimización de procesos.
 
-Actualmente estoy fortaleciendo mis habilidades en análisis de datos, combinando mi experiencia profesional con herramientas tecnológicas para transformar información en hallazgos que faciliten la toma de decisiones y la optimización de procesos.
+Actualmente fortalezco mis competencias en Python, SQL y visualización de datos, integrando mi conocimiento del sector salud con herramientas analíticas para evaluar la calidad de la información, identificar oportunidades de mejora, optimizar procesos y generar información que facilite la toma de decisiones basadas en datos.
 
 ---
 ## 👩‍💻 Sobre mí
