@@ -96,8 +96,8 @@ Análisis del comportamiento de usuarios para identificar puntos de fuga y oport
 <p><strong>Principales hallazgos:</strong></p>
 
 <ul>
-<li>Pérdida del 85% de usuarios interesados al agregar al carrito.</li>
-<li>Retención inferior al 3% en el día 28.</li>
+<li>Pérdida del 85,68% de usuarios entre la selección del producto y su incorporación al carrito.</li>
+<li>Retención promedio cercana al 2,74% en el día 28 para las cohortes analizadas.</li>
 </ul>
 
 <p><strong>Tecnologías:</strong></p>
