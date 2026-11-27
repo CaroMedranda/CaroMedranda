@@ -87,7 +87,7 @@ Análisis exploratorio para evaluar la relación entre la congestión vial y el 
 </td>
 <td width="50%" valign="top">
 
-<h3>🛒 Análisis de embudo y retención</h3>
+<🛒 <a href="https://github.com/CaroMedranda/analisis-embudo-retencion-en-mercadolibre">Análisis de embudo y retención</a>
 
 <p>
 Análisis del comportamiento de usuarios para identificar puntos de fuga y oportunidades de mejora en el proceso de compra.
